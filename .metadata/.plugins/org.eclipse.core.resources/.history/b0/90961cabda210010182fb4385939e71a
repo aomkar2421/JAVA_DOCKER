@@ -1,0 +1,13 @@
+package om.com;
+
+public class Employee {
+	private String name;
+	
+	private int sal;
+	
+	private int exp;
+	
+	private String city;
+	
+	private Organization organization;
+}

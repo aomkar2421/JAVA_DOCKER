@@ -1,0 +1,6 @@
+package com.om.backend;
+
+@web
+public class HandleRegister {
+
+}

@@ -1,0 +1,9 @@
+package om.com;
+
+public class Organization {
+	private String orgName;
+	
+	private String loc;
+	
+	private int empNo;
+}

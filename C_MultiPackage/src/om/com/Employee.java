@@ -1,0 +1,28 @@
+package om.com;
+
+public class Employee {
+	private String name;
+	
+	private int sal;
+	
+	private int exp;
+	
+	private String city;
+	
+	private Organization organization;
+
+	public Employee(String name, int sal, int exp, String city, Organization organization) {
+		this.name = name;
+		this.sal = sal;
+		this.exp = exp;
+		this.city = city;
+		this.organization = organization;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [name=" + name + ", sal=" + sal + ", exp=" + exp + ", city=" + city + ", organization="
+				+ organization + "]";
+	}
+	
+}

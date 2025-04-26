@@ -1,0 +1,15 @@
+127.0.0.1 - - [26/Apr/2025:17:53:22 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [26/Apr/2025:17:53:23 +0530] "GET /E_Servlet_Jsp/ HTTP/1.1" 200 558
+0:0:0:0:0:0:0:1 - - [26/Apr/2025:17:53:27 +0530] "GET /E_Servlet_Jsp/register.jsp HTTP/1.1" 200 998
+0:0:0:0:0:0:0:1 - - [26/Apr/2025:17:53:33 +0530] "POST /E_Servlet_Jsp/registerForm HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [26/Apr/2025:18:05:15 +0530] "GET /E_Servlet_Jsp/register.jsp HTTP/1.1" 200 998
+0:0:0:0:0:0:0:1 - - [26/Apr/2025:18:05:16 +0530] "GET /E_Servlet_Jsp/register.jsp HTTP/1.1" 200 998
+0:0:0:0:0:0:0:1 - - [26/Apr/2025:18:05:21 +0530] "POST /E_Servlet_Jsp/registerForm HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [26/Apr/2025:18:06:37 +0530] "GET /E_Servlet_Jsp/register.jsp HTTP/1.1" 200 998
+0:0:0:0:0:0:0:1 - - [26/Apr/2025:18:06:44 +0530] "POST /E_Servlet_Jsp/registerForm HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/Apr/2025:18:06:44 +0530] "GET /E_Servlet_Jsp/profile.jsp HTTP/1.1" 200 155
+0:0:0:0:0:0:0:1 - - [26/Apr/2025:18:28:30 +0530] "GET /E_Servlet_Jsp/profile.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/Apr/2025:18:28:30 +0530] "GET /E_Servlet_Jsp/login.jsp HTTP/1.1" 200 849
+0:0:0:0:0:0:0:1 - - [26/Apr/2025:18:28:37 +0530] "POST /E_Servlet_Jsp/loginForm HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/Apr/2025:18:28:37 +0530] "GET /E_Servlet_Jsp/profile.jsp HTTP/1.1" 200 896
+0:0:0:0:0:0:0:1 - - [26/Apr/2025:18:28:41 +0530] "GET /E_Servlet_Jsp/logout HTTP/1.1" 404 776

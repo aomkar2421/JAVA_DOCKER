@@ -1,0 +1,8 @@
+package com.om.backend;
+
+import jakarta.servlet.annotation.WebServlet;
+
+@WebServlet("/registerForm")t
+public class HandleRegister {
+
+}

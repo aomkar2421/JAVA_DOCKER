@@ -1,0 +1,24 @@
+<%@page import="java.sql.ResultSet"%>
+<%@page import="java.sql.Statement"%>
+<%@page import="com.om.connection.EstablishConnection"%>
+<%@page import="java.sql.Connection"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>PROFILE PAGE</h1>
+	<%
+		String email = session.getAttribute("email");
+		Connection con = EstablishConnection.getConnection();
+		
+		Statement st = con.createStatement();
+		ResultSet rs = st.executeQuery("select * from register where email="+email);
+		
+	%>
+</body>
+</html>

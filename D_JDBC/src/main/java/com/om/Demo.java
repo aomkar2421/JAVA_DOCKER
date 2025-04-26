@@ -1,0 +1,17 @@
+package com.om;
+
+import java.sql.Statement;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class Demo {
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		Connection con  = DriverManager.getConnection("jdbc:mysql://localhost:3306/dummy", "root", "root");
+		Statement st = con.createStatement();
+		st.execute("USE dummy");
+		st.execute("CREATE TABLE DEMO(name varchar(10))");
+		System.out.println("COMPLETED");
+	}
+}

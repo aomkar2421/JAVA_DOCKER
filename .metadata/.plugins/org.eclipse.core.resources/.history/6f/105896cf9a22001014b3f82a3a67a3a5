@@ -1,0 +1,49 @@
+package com.om.backend;
+
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import com.om.connection.EstablishConnection;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+@WebServlet("/registerForm")
+public class HandleRegister extends HttpServlet {
+	
+	@Override
+	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		String name = req.getParameter("name");
+		String email = req.getParameter("email");
+		String pass = req.getParameter("pass");
+		
+		System.out.println(name+" "+email+" "+pass);
+		
+		try {
+			Connection con = EstablishConnection.getConnection();
+			
+			PreparedStatement ptst = con.prepareStatement("insert into register (name, email, pass) values (?,?,?) ");
+			ptst.setString(1, name);
+			ptst.setString(1, email);
+			ptst.setString(1, pass);
+			
+			int cnt = ptst.executeUpdate();
+			if (cnt > 0) {
+				resp.sendRedirect("/profile");
+			}
+			else {
+				resp.sendRedirect("/register");
+			}
+			
+		} catch (ClassNotFoundException | SQLException e) {
+			e.printStackTrace();
+		}
+		
+	}
+	
+}
