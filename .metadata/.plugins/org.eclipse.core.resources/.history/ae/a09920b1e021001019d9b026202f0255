@@ -1,7 +1,0 @@
-package com.om.backend;
-
-import jakarta.servlet.http.HttpServlet;
-
-public class HandleLogin extends HttpServlet {
-
-}
