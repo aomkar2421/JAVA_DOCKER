@@ -1,8 +1,0 @@
-
-import java.util.Date;
-
-public class Demo {
-	public static void main(String[] args) {
-		System.out.println("Normal JAVA Project worked on date : "+new Date());
-	}
-}

@@ -27,7 +27,7 @@ public class HandleRegister extends HttpServlet {
 		try {
 			Connection con = EstablishConnection.getConnection();
 			
-			PreparedStatement ptst = con.prepareStatement("insert into register (name, email, pass) values (?,?,?) ");
+			PreparedStatement ptst = con.prepareStatement("insert into register (name, email, password) values (?,?,?) ");
 			ptst.setString(1, name);
 			ptst.setString(2, email);
 			ptst.setString(3, pass);

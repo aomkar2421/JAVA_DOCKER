@@ -28,15 +28,15 @@ public class HandleLogin extends HttpServlet {
 		try {
 			Connection con = EstablishConnection.getConnection();
 			
-			PreparedStatement ptst = con.prepareStatement("select * from register where email=? and pass = ? ");
+			PreparedStatement ptst = con.prepareStatement("select * from register where email=? and password = ? ");
 			ptst.setString(1, email);
 			ptst.setString(2, pass);
 			
 			ResultSet rs = ptst.executeQuery();
 			if (rs.next()) {
-				resp.sendRedirect("profile.jsp");
 				HttpSession session = req.getSession();
 				session.setAttribute("email", email);
+				resp.sendRedirect("profile.jsp");
 			}
 			else {
 				resp.sendRedirect("login.jsp");
