@@ -1,0 +1,11 @@
+*.class
+*.log
+*.tmp
+.DS_Store
+.git
+.gitignore
+.idea
+.vscode
+target/
+build/
+*.iml

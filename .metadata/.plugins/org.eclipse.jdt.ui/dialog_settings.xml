@@ -2,7 +2,7 @@
 <section name="Workbench">
 	<item key="org.eclipse.jdt.ui.last.selected.jre.kind2" value="2"/>
 	<item key="org.eclipse.jdt.ui.last.selected.execution.enviroment" value="JavaSE-17"/>
-	<item key="org.eclipse.jdt.ui.lastextjar" value="E:\SOFTWARES\JAVA\Java Utilities\Mysql connector\mysql-connector-j-8.0.33"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="S:\SOFTWARES\JAVA\Java Utilities\Mysql connector\mysql-connector-j-8.0.33"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
 		<item key="layout" value="2"/>
@@ -69,5 +69,22 @@
 	</section>
 	<section name="ClasspathContainerSelectionPage">
 		<item key="index" value="7"/>
+	</section>
+	<section name="FatJarPackageWizard">
+		<item key="FatJarPackageWizardPage.ANTSCRIPT_SAVE" value="false"/>
+		<item key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION" value="P:\DOCKER PRACTISE\JAVA_DOCKER"/>
+		<item key="FatJarPackageWizardPage.LIBRARY_HANDLING" value="3"/>
+		<item key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME" value="Demo (4) - D_JDBC"/>
+		<item key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION" value="D_JDBC\D_JDBC.jar"/>
+		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="D_JDBC\D_JDBC.jar"/>
+			<item value="D_JDBC/D_JDBC.jar"/>
+			<item value="P:\DOCKER PRACTISE\SPRING_DOCKER\D_ThreeTierThymeleaf\D_JDBC.jar"/>
+			<item value="C:\Users\Admin\Desktop\D_JDBC.jar"/>
+		</list>
+		<list key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION_HISTORY">
+			<item value="P:\DOCKER PRACTISE\JAVA_DOCKER.xml"/>
+			<item value=".xml"/>
+		</list>
 	</section>
 </section>

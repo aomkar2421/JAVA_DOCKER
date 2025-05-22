@@ -8,10 +8,20 @@ import java.sql.SQLException;
 public class Demo {
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		Connection con  = DriverManager.getConnection("jdbc:mysql://localhost:3306/dummy", "root", "root");
+		//Connection con  = DriverManager.getConnection("jdbc:mysql://localhost:3306/dummy", "root", "root");
+
+		//for docker
+		Connection con  = DriverManager.getConnection("jdbc:mysql://mysql-container:3306/dummy", "root", "root");
 		Statement st = con.createStatement();
+
+		System.out.println("\n\n\n\n\n============Executipon Started===========");
 		st.execute("USE dummy");
-		st.execute("CREATE TABLE DEMO(name varchar(10))");
-		System.out.println("COMPLETED");
+		st.execute("CREATE TABLE name(name varchar(10))");
+		System.out.println("Table Created");
+
+		st.execute("insert into name values ('omkar')");
+		st.execute("insert into name values ('avi')");
+		System.out.println("Values inserted into tables");
+		System.out.println("\n\n\n\n\n============Executipon Completed===========");
 	}
 }

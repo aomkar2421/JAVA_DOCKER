@@ -1,0 +1,28 @@
+package com.om;
+
+import java.sql.Statement;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class Demo {
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		Connection con  = DriverManager.getConnection("jdbc:mysql://localhost:3306/dummy", "root", "root");
+
+		//for docker
+		//		Connection con  = DriverManager.getConnection("jdbc:mysql://mysql-container:3306/dummy", "root", "root");
+		Statement st = con.createStatement();
+
+		System.out.println("\n\n\nExecutipon Started");
+		st.execute("USE dummy");
+		st.execute("CREATE TABLE name(name varchar(10))");
+		System.out.println("Table Created");
+		
+		st.execute("insert into name values ('omkar')");
+		st.execute("insert into name values ('avi')");
+		System.out.println("Values inserted into tables");
+		System.out.println("\n\n\n\n");
+		System.out.println("H");
+	}
+}
