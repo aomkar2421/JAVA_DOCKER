@@ -1,0 +1,11 @@
+127.0.0.1 - - [07/Jun/2025:13:05:24 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [07/Jun/2025:13:05:25 +0530] "GET /E_Servlet_Jsp/ HTTP/1.1" 200 558
+0:0:0:0:0:0:0:1 - - [07/Jun/2025:13:05:25 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [07/Jun/2025:13:05:28 +0530] "GET /E_Servlet_Jsp/register.jsp HTTP/1.1" 200 998
+0:0:0:0:0:0:0:1 - - [07/Jun/2025:13:05:37 +0530] "POST /E_Servlet_Jsp/registerForm HTTP/1.1" 404 782
+0:0:0:0:0:0:0:1 - - [07/Jun/2025:13:06:54 +0530] "GET /E_Servlet_Jsp/register.jsp HTTP/1.1" 200 998
+0:0:0:0:0:0:0:1 - - [07/Jun/2025:13:07:03 +0530] "POST /E_Servlet_Jsp/registerForm HTTP/1.1" 404 782
+0:0:0:0:0:0:0:1 - - [07/Jun/2025:13:07:36 +0530] "GET /E_Servlet_Jsp/register.jsp HTTP/1.1" 200 999
+0:0:0:0:0:0:0:1 - - [07/Jun/2025:13:07:44 +0530] "POST /registerForm HTTP/1.1" 404 764
+0:0:0:0:0:0:0:1 - - [07/Jun/2025:13:07:57 +0530] "GET /E_Servlet_Jsp/login.jsp HTTP/1.1" 200 849
+0:0:0:0:0:0:0:1 - - [07/Jun/2025:13:07:59 +0530] "POST /E_Servlet_Jsp/loginForm HTTP/1.1" 404 779

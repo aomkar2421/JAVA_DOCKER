@@ -9,10 +9,10 @@ public class EstablishConnection {
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		
 		//for docker
-		Connection con  = DriverManager.getConnection("jdbc:mysql://mysql-j2eewebapp:3306/dummy", "root", "root");
+//		Connection con  = DriverManager.getConnection("jdbc:mysql://mysql-j2eewebapp:3306/dummy", "root", "root");
 		
 		//for local machine
-		//Connection con  = DriverManager.getConnection("jdbc:mysql://localhost:3306/dummy", "root", "root");
+		Connection con  = DriverManager.getConnection("jdbc:mysql://localhost:3306/dummy", "root", "root");
 		return con;
 	}
 }

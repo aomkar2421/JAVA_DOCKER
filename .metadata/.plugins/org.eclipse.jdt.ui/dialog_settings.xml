@@ -73,7 +73,7 @@
 	<section name="FatJarPackageWizard">
 		<item key="FatJarPackageWizardPage.ANTSCRIPT_SAVE" value="false"/>
 		<item key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION" value="P:\DOCKER PRACTISE\JAVA_DOCKER"/>
-		<item key="FatJarPackageWizardPage.LIBRARY_HANDLING" value="3"/>
+		<item key="FatJarPackageWizardPage.LIBRARY_HANDLING" value="2"/>
 		<item key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME" value="Demo (4) - D_JDBC"/>
 		<item key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION" value="D_JDBC\D_JDBC.jar"/>
 		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
